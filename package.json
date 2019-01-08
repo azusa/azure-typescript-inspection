@@ -1,7 +1,18 @@
 {
   "name": "azure-typescript-inspection",
   "version": "1.0.0",
+  "main": "index.js",
   "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "dependencies": {
+    "typescript": "^3.2.2",
+    "@types/node": "^10.12.18"
+  },
   "engines": {
     "node": ">=10.14.1"
   }
